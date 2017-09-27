@@ -21,7 +21,7 @@
 /* app/code/local/Atwix/Ipstoreswitcher/Helper/Data.php */
 class Atwix_Ipstoreswitcher_Helper_Data extends Mage_Core_Helper_Abstract
 {
-    const DEFAULT_STORE_CODE = 'default';
+    const DEFAULT_STORE_CODE = 'row';
 
     /**
      * countries to store relation
@@ -29,17 +29,58 @@ class Atwix_Ipstoreswitcher_Helper_Data extends Mage_Core_Helper_Abstract
      * @var array
      */
     protected $_countryToStoreCode = array(
-        'FR' => 'french',
-        'BE' => 'french',
-        'CH' => 'french',
-        'DE' => 'german',
-        'AT' => 'german',
-        'UK' => 'default',
-        'US' => 'default',
-        'UA' => 'default',
-        'CN' => 'default',
-        'JP' => 'default',
-	'US' => 'usa_store_view'
+        'AU' => 'au',
+        'CA' => 'ca',
+        'AL' => 'eu',
+        'AD' => 'eu',
+        'AM' => 'eu',
+        'AT' => 'eu',
+        'BY' => 'eu',
+        'BE' => 'eu',
+        'BA' => 'eu',
+        'BG' => 'eu',
+        'HR' => 'eu',
+        'CY' => 'eu',
+        'CZ' => 'eu',
+        'DK' => 'eu',
+        'EE' => 'eu',
+        'FI' => 'eu',
+        'FR' => 'eu',
+        'GE' => 'eu',
+        'DE' => 'eu',
+        'GR' => 'eu',
+        'HU' => 'eu',
+        'IS' => 'eu',
+        'IE' => 'eu',
+        'IT' => 'eu',
+        'KZ' => 'eu',
+        'XK' => 'eu', //KOSOVO TEMP CODE
+        'LV' => 'eu',
+        'LI' => 'eu',
+        'LU' => 'eu',
+        'MK' => 'eu',
+        'MT' => 'eu',
+        'MD' => 'eu',
+        'MC' => 'eu',
+        'ME' => 'eu',
+        'NL' => 'eu',
+        'NO' => 'eu',
+        'PL' => 'eu',
+        'PT' => 'eu',
+        'RO' => 'eu',
+        'RU' => 'eu',
+        'SM' => 'eu',
+        'RS' => 'eu',
+        'SK' => 'eu',
+        'SI' => 'eu',
+        'ES' => 'eu',
+        'SE' => 'eu',
+        'TR' => 'eu',
+        'UA' => 'eu',
+        'VA' => 'eu',
+        'NZ' => 'nz',
+        'GB' => 'uk',
+        'US' => 'us'
     );
 
     /**
